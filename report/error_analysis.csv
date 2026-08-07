@@ -1,0 +1,11 @@
+image,actual_object,model_prediction,error_type,possible_reason
+101_jpg.rf.1d96eba3aeafa61970f4e015389c976f.jpg,car,motorcycle,Wrong class,top-down camera angle makes car shape resemble motorcycle
+102_jpg.rf.65c42b81b3864eceb0c7e3543fe36626.jpg,car,motorcycle,Wrong class,aerial/CCTV viewpoint reduces distinguishing features
+118_jpg.rf.2a142c9ea492f7e605fd56...jpg,car,motorcycle,Wrong class,similar bounding box proportions from this angle
+123_jpg.rf.dca462f30045e87f16dd5b5b09aa60eb.jpg,car,motorcycle,Wrong class,limited motorcycle training examples caused model bias toward this class
+56_jpg.rf.c000752863edca07a145714...jpg,car,motorcycle,Wrong class,small object size at distance from camera
+456_jpg.rf.e210bd0c48932a365c8eb3ad608d136d.jpg,person,person (low confidence 0.36),Weak detection,"small, distant object with partial occlusion by trees"
+test_truck_01.jpg,truck,bus,Wrong class,"similar box-shaped silhouette, both large vehicles"
+test_02.jpg,bus,truck,Wrong class,"similar shape, limited bus training examples"
+test_03.jpg,motorcycle,not detected,False negative,"small object, far distance from camera"
+test_04.jpg,person,not detected,False negative,"partial occlusion, blended with background"
