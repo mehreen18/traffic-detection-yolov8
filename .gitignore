@@ -1,0 +1,9 @@
+# Dataset 
+dataset/
+
+# Outputs
+outputs/
+
+# Cache
+__pycache__/
+.ipynb_checkpoints/

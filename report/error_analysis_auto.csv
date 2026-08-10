@@ -1,0 +1,6 @@
+image,actual_object,model_prediction,error_type,possible_reason
+57_jpg.rf.b8bf2071cae5ca9e5a983a97b46e5418.jpg,"bus, car",car,False negative,Missed detecting: bus
+img355_jpg.rf.9d1bdb1361833ce533d43e00264063ba.jpg,bus,"bus, car, person",False positive,"Detected extra object(s) not in ground truth: car, person"
+img180_jpg.rf.4188d271081f2968face8092d23b1ea0.jpg,truck,bus,Wrong class,Model saw 'bus' instead of 'truck'
+img643_jpg.rf.4f4e6b5f10950509de5f1a25c938c24b.jpg,"bus, person",bus,False negative,Missed detecting: person
+img639_jpg.rf.151ab99669ca1b67d90f40fc1c339409.jpg,"bus, person",bus,False negative,Missed detecting: person
